@@ -1,9 +1,7 @@
-require 'active_support/inflector'
+require "active_support/inflector"
 
 module Foodie
-
   class Food
-
     def self.portray(food)
       if food.downcase == "broccoli"
         "Gross!"
@@ -15,7 +13,5 @@ module Foodie
     def self.pluralize(word)
       word.pluralize
     end
-
   end
-
 end
